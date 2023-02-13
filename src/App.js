@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Landing from './pages/Landing';
+import Navbar from './components/Navbar';
+import { ScrollContainer } from "react-scroll-motion";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ScrollContainer>
+        <div className='w-full top-0 fixed z-20' >
+          <Navbar />
+        </div>
+        <div className='mt-[48px] md:mt-[101px]' >
+          <Landing />
+        </div>
+        {/* <div className='w-full bottom-0 absolute z-20' >
+          <Footer />
+        </div> */}
+      </ScrollContainer>
     </div>
   );
 }

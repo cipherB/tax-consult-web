@@ -1,10 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  overflow-x: hidden !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #161c2d;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+p,
+ul,
+li,
+a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  line-height: 2em;
+}
+
+.land-background {
+  background: url('./assets/office.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 90% 90%;
+  background-attachment: fixed;
+}
+
+@media (max-width: 700px) {
+  p {
+    font-size: 16px;
+  }
+  .land-background {
+    background-attachment: scroll;
+  }
 }
 
 code {
