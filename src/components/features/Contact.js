@@ -6,7 +6,7 @@ import {
   BsInstagram,
   BsLinkedin
 } from 'react-icons/bs';
-import { MdLocationOn } from 'react-icons/md';
+import { MdLocationOn, MdMail } from 'react-icons/md';
 
 const Contact = () => {
   return (
@@ -56,6 +56,9 @@ const Contact = () => {
             <ul className='list-none' >
               <li className='flex gap-2 items-center py-1' >
                 <BsTelephoneFill className='text-primary' /> <p>08000000000</p>
+              </li>
+              <li className='flex gap-2 items-center py-1' >
+                <MdMail className='text-primary' /> <p>demo@example.com</p>
               </li>
             </ul>
           </div>

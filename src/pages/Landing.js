@@ -25,27 +25,33 @@ const Landing = () => {
   },[inView1]);
   return <div className="w-full" >
     <div 
-      className="flex flex-col-reverse md:grid grid-cols-2 items-center gap-4 
-      py-10 md:justify-between md:px-16 md:flex-row md:py-16 land-background" 
+      className="flex flex-col-reverse items-center grid-cols-2 gap-4 py-10 md:grid md:justify-between md:px-16 md:flex-row md:py-32 land-background" 
       id="home"
     >
       <div className="px-5 md:px-0" >
-        <motion.h1 
-          className="mb-4 text-center md:text-left text-tertiary" 
+        <motion.p 
+          className="mb-2 text-2xl text-center md:text-left text-white" 
           ref={refHeader}
           initial={{opacity:0}}
           animate={inView1 && controls}
         >
-          Welcome to <span className="text-tertiary" >Demo</span>. 
+          We are
+        </motion.p>
+        <motion.h1 
+          className="mb-4 text-center md:text-left text-secondary" 
+          ref={refHeader}
+          initial={{opacity:0}}
+          animate={inView1 && controls}
+        >
+          Norwood Business House. 
         </motion.h1>
-        <p className="mb-12 text-xl text-center md:text-left 
-        md:text-2xl md:text-primary text-white" >
+        <p className="mb-12 text-xl text-center text-white md:text-left md:text-2xl" >
           Our top-notch tax consulting services set us apart.
         </p>
         <div className="flex justify-center md:block" >
           <a href="#contact" className="" >
             <button 
-              className="px-10 py-4 text-lg font-semibold transition-all duration-500 bg-white rounded-md cursor-pointer text-primary hover:scale-110"
+              className="px-7 py-3 text-lg font-semibold transition-all duration-500 bg-white rounded-md cursor-pointer text-primary hover:scale-110"
             >
               CONTACT US
             </button>
@@ -57,14 +63,14 @@ const Landing = () => {
         w-[310px] h-[211px]" />
       </div> */}
     </div>
-    <div className="mt-32 md:mt-44" id="industries">
-      <Features />
-    </div>
     <InViewAnimateRight>
       <div className="mt-32 md:mt-44" id="services">
         <Service />
       </div>
     </InViewAnimateRight>
+    <div className="mt-32 md:mt-44" id="industries">
+      <Features />
+    </div>
     <InViewAnimateLeft >
       <div className="mt-32 md:mt-44" id="about">
         <AboutUs />

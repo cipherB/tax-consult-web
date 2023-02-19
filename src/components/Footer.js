@@ -7,9 +7,9 @@ const Footer = () => {
     flex-col md:flex-row gap-y-4' >
       <div className='flex items-center md:flex-row flex-col gap-y-2 gap-x-6' >
         <a href="#home" className='flex gap-x-2 items-center' >
-          <img src={Logo} alt="logo" className='cursor-pointer md:w-[60px] md:h-[60px] 
+          <img src={Logo} alt="logo" className='cursor-pointer md:w-[40px] md:h-[40px] 
           w-[20px] h-[20px] -ml-3 md:ml-0' />
-          <h2 className='text-primary md:text-3xl text-2xl' >Demo App</h2>
+          <h2 className='text-primary md:text-3xl text-2xl font-black' >NBH</h2>
         </a>
         <ul className='list-none flex gap-x-4 md:flex-row flex-col gap-y-2' >
           <li >

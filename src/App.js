@@ -9,7 +9,7 @@ function App() {
         <div className='w-full top-0 fixed z-20' >
           <Navbar />
         </div>
-        <div className='mt-[48px] md:mt-[101px]' >
+        <div className='mt-[110px] ' >
           <Landing />
         </div>
         {/* <div className='w-full bottom-0 absolute z-20' >
