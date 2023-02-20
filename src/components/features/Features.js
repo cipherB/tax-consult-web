@@ -25,7 +25,7 @@ const Features = () => {
                 <h2 className='capitalize' >{item.title} </h2>
                 <p dangerouslySetInnerHTML={{__html:item.detail}} ></p>
                 <p className='text-primary cursor-pointer font-bold md:text-lg' >
-                  Learn More
+                  LEARN MORE
                 </p>
               </InViewAnimateLeft>
             </div>

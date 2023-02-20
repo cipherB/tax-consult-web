@@ -56,7 +56,7 @@ const Contact = () => {
             <h3 className='text-primary' >Connect</h3>
             <ul className='list-none' >
               <li className='flex gap-2 items-center py-1' >
-                <BsTelephoneFill className='text-primary' /> <p>08000000000</p>
+                <BsTelephoneFill className='text-primary' /> <p>09000000000</p>
               </li>
               <li className='flex gap-2 items-center py-1' >
                 <MdMail className='text-primary' /> <p>demo@example.com</p>

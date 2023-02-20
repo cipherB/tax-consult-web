@@ -38,16 +38,16 @@ const News = () => {
           news.map((item, id) => id < 5 && (
             <div key={id}>
               <InViewAnimateLeft duration={(((id+1)*0.4)+0.4)} >
-                <div className='py-2 px-4 md:p-6 
+                <div className='py-2 px-6 md:p-6 
                 hover:bg-opacity-25 cursor-pointer' >
                   <div className='mb-4 ' >
                     <img src={images[Math.floor(Math.random() * 5)]} alt={item.text} 
-                    className="w-full md:w-[160px] h-[160px]" />
+                    className="w-full md:w-[160px] md:h-[160px] h-[200px]" />
                   </div>
                   <h2 className='capitalize' >{item.text} </h2>
                   <p dangerouslySetInnerHTML={{__html:item?.summary}} ></p>
                   <p className='text-primary cursor-pointer font-bold md:text-lg' >
-                    View
+                    READ MORE
                   </p>
                 </div>
               </InViewAnimateLeft>

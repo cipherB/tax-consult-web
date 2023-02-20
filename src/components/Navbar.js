@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Logo from "../assets/logo.svg";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { motion } from "framer-motion";
@@ -9,13 +9,26 @@ import { MdMail } from 'react-icons/md';
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+
+  const [scrollPos, setScrollPos] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    setScrollPos(window.pageYOffset);
+  };
   
   return (
     <div 
-      className='w-full h-[110px] px-5 md:px-16 
-    bg-white bg-opacity-80 flex flex-col justify-center' 
+      className={`w-full bg-opacity-80 px-5 md:px-16 flex flex-col justify-center bg-white
+      ${scrollPos>530?"h-[48px] md:h-[101px]":"h-[110px]"} transition-all`}
     >
-      <div className='' >
+      <div className={`${scrollPos>530&&"hidden"}`} >
         <p className='flex justify-center flex-wrap md:justify-start 
         items-center text-tertiary gap-x-1' >
           <BsTelephoneFill /> (+234) 0900 000 0000 | <MdMail /> demo@example.com
@@ -26,7 +39,11 @@ const Navbar = () => {
           <img src={Logo} alt="logo" 
             className='cursor-pointer md:w-[40px] md:h-[40px] w-[20px] h-[20px] -ml-3 md:ml-0 md:' 
           />
-          <h2 className='text-primary md:text-3xl text-2xl font-black' >NBH</h2>
+          <h2 
+            className={`text-primary md:text-3xl text-2xl font-black`}
+          >
+            NBH
+          </h2>
         </a>
         <ul className='hidden list-none md:flex gap-x-16' >
           <li >
