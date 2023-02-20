@@ -88,8 +88,8 @@ const Navbar = () => {
             </motion.div>
           }
           <motion.ul 
-            className='md:hidden absolute top-0 mt-[110px] left-0 bg-white
-            w-full list-none px-8 pt-5' 
+            className={`md:hidden absolute top-0 left-0 bg-white
+            w-full list-none px-8 pt-5 ${scrollPos>530?"mt-[48px] md:mt-[101px]":"mt-[110px]"}`}
             initial={{ opacity: 0, height:0 }}
             animate={openMenu ? { opacity: 1, height:"80vh" } : { opacity: 0, height:0 }}
             exit={{ opacity: 0}}
