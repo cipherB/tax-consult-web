@@ -23,7 +23,7 @@ const Features = () => {
                 hover:bg-opacity-25 cursor-pointer' >
                   <div className='mb-4 ' >
                     <img src={item.img} alt={item.title} 
-                    className="w-full md:w-[160px] h-[160px] md:rounded-full" />
+                    className="w-full md:w-[160px] md:h-[160px] h-[200px] md:rounded-full" />
                   </div>
                   <h2 className='capitalize' >{item.title} </h2>
                   <p dangerouslySetInnerHTML={{__html:item.detail}} ></p>

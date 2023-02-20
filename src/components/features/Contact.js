@@ -4,7 +4,8 @@ import {
   BsTelephoneFill, 
   BsFacebook,
   BsInstagram,
-  BsLinkedin
+  BsLinkedin,
+  BsClock
 } from 'react-icons/bs';
 import { MdLocationOn, MdMail } from 'react-icons/md';
 
@@ -59,6 +60,9 @@ const Contact = () => {
               </li>
               <li className='flex gap-2 items-center py-1' >
                 <MdMail className='text-primary' /> <p>demo@example.com</p>
+              </li>
+              <li className='flex gap-2 items-center py-1' >
+                <BsClock className='text-primary' /> <p>Monday-Friday:8am-5pm</p>
               </li>
             </ul>
           </div>

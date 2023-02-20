@@ -7,7 +7,7 @@ export const features = [
   {
     title: "Financial Services",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -15,7 +15,7 @@ export const features = [
   }, {
     title: "Life Service and Healthcare",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -23,7 +23,7 @@ export const features = [
   }, {
     title: "Consumer and Insustrial Market",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -31,7 +31,7 @@ export const features = [
   }, {
     title: "Insurance",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -39,7 +39,7 @@ export const features = [
   }, {
     title: "Technology and Media",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -47,7 +47,7 @@ export const features = [
   }, {
     title: "Government and Public Services",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -59,7 +59,7 @@ export const services = [
   {
     title: "Audit Assurance",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -67,7 +67,7 @@ export const services = [
   }, {
     title: "Tax Services",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -75,7 +75,7 @@ export const services = [
   }, {
     title: "Risk Advisory",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,
@@ -83,7 +83,7 @@ export const services = [
   }, {
     title: "Consulting",
     detail: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti  excepturi non provident.</br>
+    praesentium voluptatum deleniti atque corrupti  excepturi non provident.<br />
     Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
     cum soluta nobis est eligendi optio cumque.
     `,

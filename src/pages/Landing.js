@@ -12,6 +12,8 @@ import AboutUs from "../components/features/AboutUs";
 import Testimonial from "../components/features/Testimonial";
 import InViewAnimateLeft from "../components/transitions/InViewAnimateLeft1";
 import InViewAnimateRight from "../components/transitions/InViewAnimateRight";
+import Subscribe from "../components/features/Subscribe";
+import News from "../components/features/News";
 
 const Landing = () => {
   const controls = useAnimation();
@@ -81,6 +83,12 @@ const Landing = () => {
     </div>
     <div className="mt-32 md:mt-44" id="testimonials">
       <Testimonial />
+    </div>
+    <div className="mt-32 md:mt-48" id="subscribe">
+      <Subscribe />
+    </div>
+    <div className="mt-32 md:mt-48" id="subscribe">
+      <News />
     </div>
     <div className="mt-32 md:mt-44" id="contact">
       <Contact />
