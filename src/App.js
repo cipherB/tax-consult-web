@@ -1,21 +1,25 @@
 import Landing from './pages/Landing';
 import Navbar from './components/Navbar';
 import { ScrollContainer } from "react-scroll-motion";
+import SecLanding from './pages/SecLanding';
 
 function App() {
   return (
     <div className="App">
-      <ScrollContainer>
-        <div className='w-full top-0 fixed z-20' >
+      {/* <ScrollContainer>
+        <div className='fixed top-0 z-20 w-full' >
           <Navbar />
         </div>
         <div className='mt-[110px] ' >
           <Landing />
         </div>
-        {/* <div className='w-full bottom-0 absolute z-20' >
-          <Footer />
-        </div> */}
-      </ScrollContainer>
+      </ScrollContainer> */}
+      <div className='fixed top-0 z-20 w-full' >
+        <Navbar />
+      </div>
+      <div className='mt-6 md:mt-[120px]' >
+        <SecLanding />
+      </div>
     </div>
   );
 }
